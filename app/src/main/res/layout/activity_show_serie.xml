@@ -10,24 +10,43 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.danny.mobile_project.ShowSerie">
 
+
+    <ImageView
+        android:id="@+id/serie_image"
+
+        android:layout_below="@+id/text_title"
+        android:layout_width="400dp"
+        android:layout_height="200dp" />
+
     <TextView
         android:id="@+id/text_title"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <TextView
-        android:layout_below="@+id/text_title"
         android:id="@+id/text_description"
+        android:text="Description:"
+
+        android:layout_below="@+id/serie_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <TextView
-        android:layout_below="@+id/text_description"
         android:id="@+id/text_actors"
+        android:text="Actors: "
+
+        android:layout_below="@+id/text_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+    <TextView
+        android:id="@+id/text_number_eps"
+        android:text="Nº of eps: "
 
+        android:layout_below="@+id/text_actors"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
 
 
 </RelativeLayout>
