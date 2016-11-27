@@ -14,15 +14,10 @@
     <ImageView
         android:id="@+id/serie_image"
 
-        android:layout_below="@+id/text_title"
         android:layout_width="400dp"
         android:layout_height="200dp" />
 
-    <TextView
-        android:id="@+id/text_title"
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/text_description"
